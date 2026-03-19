@@ -1,0 +1,46 @@
+research_task:
+  description: >
+    Research the topic: "{topic}".
+    Find a shocking fact, a common misconception, or a numerical truth that creates an "Unexpected Twist".
+    Identify the core problem and a product that acts as a solution.
+    Identify the best hook pattern to use (Direct Warning, Common Mistake, Numerical Fact, or Visual-First).
+  expected_output: >
+    A detailed research brief including the core fact, the context, the unexpected twist, and the suggested hook pattern.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Create a short-form video script based on the research for: "{topic}".
+    
+    ## Script structure (strict)
+    1. Hook (0–3s) - Irresistible opening using the selected pattern.
+    2. Body (3–40s) - Hook -> Core Fact -> Context. Use bridge words (แต่ที่น่าทึ่งกว่านั้นคือ..., จริงๆ แล้ว..., ปรากฏว่า...).
+    3. Payoff (40–50s) - Satisfying conclusion + natural product reveal.
+    4. CTA (50–55s) - Soft call to action (e.g., "ลิงก์อยู่ใน bio ถ้าอยากลอง").
+    
+    ## Visual cues
+    Specify [VISUAL: ...] markers for every key moment.
+    
+    ## Output Rule
+    Respond ONLY with valid JSON. No markdown, no explanation, no preamble.
+    JSON structure:
+    {{
+      "product": "product name",
+      "hook_pattern": "direct_warning|common_mistake|numerical_fact|visual_first",
+      "script": {{
+        "hook": "hook text",
+        "body": "narrative with [VISUAL: ...] markers",
+        "payoff": "conclusion + product reveal",
+        "cta": "call to action",
+        "full_script": "complete script with visual cues"
+      }},
+      "asset_brief": [
+        {{ "timestamp": "0:05", "description": "...", "type": "real|generated", "keywords": [...] }}
+      ],
+      "word_count": 120,
+      "duration_estimate": "52s",
+      "written_at": "ISO timestamp"
+    }}
+  expected_output: >
+    A valid JSON object containing the full script and asset brief.
+  agent: reporting_analyst

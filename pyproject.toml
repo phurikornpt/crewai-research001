@@ -1,0 +1,27 @@
+[project]
+name = "hello_ai"
+version = "0.1.0"
+description = "hello-ai using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[google-genai,tools]==1.11.0",
+    "discord-py>=2.7.1",
+]
+
+[project.scripts]
+hello_ai = "hello_ai.main:run"
+run_crew = "hello_ai.main:run"
+kickoff = "hello_ai.main:kickoff"
+train = "hello_ai.main:train"
+replay = "hello_ai.main:replay"
+test = "hello_ai.main:test"
+run_with_trigger = "hello_ai.main:run_with_trigger"
+discord_bot = "hello_ai.main:run_bot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
