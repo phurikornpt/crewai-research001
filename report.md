@@ -1,102 +1,72 @@
 ```json
 {
-  "product": "ทางเลือกใหม่เพื่อสุขอนามัยในครัว",
-  "hook_pattern": "numerical_fact|direct_warning",
+  "product": "Flavor-Unlocker Smart Glass Set",
+  "hook_pattern": "common_mistake",
   "script": {
-    "hook": "รู้ไหม? ฟองน้ำล้างจานที่คุณใช้... สกปรกกว่าโถส้วมหลายพันเท่า! [VISUAL: Close-up well-used sponge (0:00-0:01), quick cut to stylized clean toilet bowl (0:01-0:02). Shocked face emoji overlay (0:02-0:03).]",
-    "body": "จริงๆ แล้ว ฟองน้ำแค่ชิ้นเดียว บรรจุแบคทีเรียได้มากถึง 45,000,000,000 ตัวต่อตารางเซนติเมตร! [VISUAL: Animated graphic: \"45,000,000,000 แบคทีเรีย!\" multiplying on sponge surface (0:03-0:07).] ทำไม? เพราะโครงสร้างพรุนๆ บวกเศษอาหาร ความชื้น ความอุ่น [VISUAL: Macro shot of sponge pores (0:07-0:08), montage: food bits, water, kitchen steam (0:08-0:11)] มันคือ \"โรงแรมหรู\" ชั้นดีของเชื้อโรค! [VISUAL: Cartoon bacteria having a party in a sponge hotel (0:11-0:14)] ปรากฏว่า เชื้อโรคอย่าง Salmonella, E. coli ชอบมาก [VISUAL: Animated icons of Salmonella/E. coli appearing (0:14-0:17)] และแพร่ไปสู่จาน ชาม มือเราได้ง่ายๆ [VISUAL: Animated lines showing bacteria spreading from sponge to plate, then hands (0:17-0:21)] เพิ่มความเสี่ยงอาหารเป็นพิษโดยไม่รู้ตัว! [VISUAL: Overlay text: \"อันตราย: อาหารเป็นพิษ!\" (0:21-0:24)]",
-    "payoff": "อย่าปล่อยให้ฟองน้ำเก่าเป็นแหล่งเพาะเชื้อ! [VISUAL: Old, grimy sponge disappears, replaced by a gleaming, modern alternative (0:24-0:28)] ถึงเวลาเปลี่ยนมาใช้ตัวช่วยที่สะอาดกว่า เช่น แปรงซิลิโคน หรือฟองน้ำต้านเชื้อ ที่แห้งเร็ว ดูแลรักษาง่ายกว่าเยอะ! [VISUAL: Product shot: modern silicone brush or antimicrobial sponge being easily rinsed, looking pristine (0:28-0:33)]",
-    "cta": "เพื่อสุขอนามัยที่ดีของทุกคนในครอบครัว! [VISUAL: Happy family eating, clean kitchen background (0:33-0:36)] ลองหาตัวเลือกใหม่ๆ ดูสิ! [VISUAL: Overlay text: \"หาตัวเลือกใหม่ๆ วันนี้!\" (0:36-0:38)]",
-    "full_script": "รู้ไหม? ฟองน้ำล้างจานที่คุณใช้... สกปรกกว่าโถส้วมหลายพันเท่า! [VISUAL: Close-up well-used sponge (0:00-0:01), quick cut to stylized clean toilet bowl (0:01-0:02). Shocked face emoji overlay (0:02-0:03).] จริงๆ แล้ว ฟองน้ำแค่ชิ้นเดียว บรรจุแบคทีเรียได้มากถึง 45,000,000,000 ตัวต่อตารางเซนติเมตร! [VISUAL: Animated graphic: \"45,000,000,000 แบคทีเรีย!\" multiplying on sponge surface (0:03-0:07).] ทำไม? เพราะโครงสร้างพรุนๆ บวกเศษอาหาร ความชื้น ความอุ่น [VISUAL: Macro shot of sponge pores (0:07-0:08), montage: food bits, water, kitchen steam (0:08-0:11)] มันคือ \"โรงแรมหรู\" ชั้นดีของเชื้อโรค! [VISUAL: Cartoon bacteria having a party in a sponge hotel (0:11-0:14)] ปรากฏว่า เชื้อโรคอย่าง Salmonella, E. coli ชอบมาก [VISUAL: Animated icons of Salmonella/E. coli appearing (0:14-0:17)] และแพร่ไปสู่จาน ชาม มือเราได้ง่ายๆ [VISUAL: Animated lines showing bacteria spreading from sponge to plate, then hands (0:17-0:21)] เพิ่มความเสี่ยงอาหารเป็นพิษโดยไม่รู้ตัว! [VISUAL: Overlay text: \"อันตราย: อาหารเป็นพิษ!\" (0:21-0:24)] อย่าปล่อยให้ฟองน้ำเก่าเป็นแหล่งเพาะเชื้อ! [VISUAL: Old, grimy sponge disappears, replaced by a gleaming, modern alternative (0:24-0:28)] ถึงเวลาเปลี่ยนมาใช้ตัวช่วยที่สะอาดกว่า เช่น แปรงซิลิโคน หรือฟองน้ำต้านเชื้อ ที่แห้งเร็ว ดูแลรักษาง่ายกว่าเยอะ! [VISUAL: Product shot: modern silicone brush or antimicrobial sponge being easily rinsed, looking pristine (0:28-0:33)] เพื่อสุขอนามัยที่ดีของทุกคนในครอบครัว! [VISUAL: Happy family eating, clean kitchen background (0:33-0:36)] ลองหาตัวเลือกใหม่ๆ ดูสิ! [VISUAL: Overlay text: \"หาตัวเลือกใหม่ๆ วันนี้!\" (0:36-0:38)]"
+    "hook": "คุณกำลังทำลายรสชาติเบียร์โปรดของคุณ! [VISUAL: มือคนถือเบียร์เย็นจัดจนมีไอน้ำเกาะ, ซูมที่แก้ว]",
+    "body": "เพราะเบียร์เย็นเจี๊ยบไม่ใช่คำตอบเสมอไป! [VISUAL: เปลี่ยนเป็นภาพเบียร์ลาเกอร์เย็นจัด] หลายคนคิดว่าเบียร์ทุกชนิดต้องเสิร์ฟที่ 3-7 องศาเซลเซียส [VISUAL: กราฟิกอุณหภูมิ 3-7°C พร้อมไอคอนเบียร์ลาเกอร์] แต่ที่น่าทึ่งกว่านั้นคือ... [VISUAL: เปลี่ยนเป็นภาพเบียร์คราฟต์หลากหลายชนิด เช่น IPA, Stout, Belgian Ale] เบียร์ซับซ้อนอย่างเอล สเตาต์ หรือ IPA [VISUAL: แก้วเบียร์คราฟต์สวยงาม หมุนช้าๆ] กลับอร่อยที่สุดที่อุณหภูมิสูงกว่ามาก! [VISUAL: คนกำลังจิบเบียร์อย่างพินิจพิเคราะห์ พร้อมรอยยิ้มเล็กน้อย] การเสิร์ฟเย็นเกินไปจะไปกดกลิ่นและรสชาติ ทำให้จืดชืด ไร้มิติ! [VISUAL: แอนิเมชันกลิ่นและรสชาติถูก 'กด' จมลง, คนทำหน้าผิดหวัง] ปรากฏว่าเบียร์คราฟต์ควรเสิร์ฟที่ 10-13 องศาเซลเซียส [VISUAL: กราฟิกอุณหภูมิ 10-13°C พร้อมไอคอนเบียร์คราฟต์] เพื่อปลดล็อกความอร่อยแท้ๆ!",
+    "payoff": "ถึงเวลาปลดล็อกศักยภาพเต็มที่ของทุกแก้ว ด้วย 'Flavor-Unlocker Smart Glass Set'! [VISUAL: ชุดแก้วเบียร์อัจฉริยะหลากหลายรูปทรง พร้อมจอแสดงอุณหภูมิหรือแถบสีเปลี่ยน] มันจะบอกคุณว่าเบียร์พร้อมเสิร์ฟที่อุณหภูมิที่สมบูรณ์แบบแล้ว!",
+    "cta": "อยากสัมผัสรสชาติเบียร์แท้ๆ? ลิงก์อยู่ใน bio ลองเลย! [VISUAL: นิ้วชี้ลงไปที่ bio/ลิงก์ บนหน้าจอ]",
+    "full_script": "คุณกำลังทำลายรสชาติเบียร์โปรดของคุณ! [VISUAL: มือคนถือเบียร์เย็นจัดจนมีไอน้ำเกาะ, ซูมที่แก้ว] เพราะเบียร์เย็นเจี๊ยบไม่ใช่คำตอบเสมอไป! [VISUAL: เปลี่ยนเป็นภาพเบียร์ลาเกอร์เย็นจัด] หลายคนคิดว่าเบียร์ทุกชนิดต้องเสิร์ฟที่ 3-7 องศาเซลเซียส [VISUAL: กราฟิกอุณหภูมิ 3-7°C พร้อมไอคอนเบียร์ลาเกอร์] แต่ที่น่าทึ่งกว่านั้นคือ... [VISUAL: เปลี่ยนเป็นภาพเบียร์คราฟต์หลากหลายชนิด เช่น IPA, Stout, Belgian Ale] เบียร์ซับซ้อนอย่างเอล สเตาต์ หรือ IPA [VISUAL: แก้วเบียร์คราฟต์สวยงาม หมุนช้าๆ] กลับอร่อยที่สุดที่อุณหภูมิสูงกว่ามาก! [VISUAL: คนกำลังจิบเบียร์อย่างพินิจพิเคราะห์ พร้อมรอยยิ้มเล็กน้อย] การเสิร์ฟเย็นเกินไปจะไปกดกลิ่นและรสชาติ ทำให้จืดชืด ไร้มิติ! [VISUAL: แอนิเมชันกลิ่นและรสชาติถูก 'กด' จมลง, คนทำหน้าผิดหวัง] ปรากฏว่าเบียร์คราฟต์ควรเสิร์ฟที่ 10-13 องศาเซลเซียส [VISUAL: กราฟิกอุณหภูมิ 10-13°C พร้อมไอคอนเบียร์คราฟต์] เพื่อปลดล็อกความอร่อยแท้ๆ! ถึงเวลาปลดล็อกศักยภาพเต็มที่ของทุกแก้ว ด้วย 'Flavor-Unlocker Smart Glass Set'! [VISUAL: ชุดแก้วเบียร์อัจฉริยะหลากหลายรูปทรง พร้อมจอแสดงอุณหภูมิหรือแถบสีเปลี่ยน] มันจะบอกคุณว่าเบียร์พร้อมเสิร์ฟที่อุณหภูมิที่สมบูรณ์แบบแล้ว! อยากสัมผัสรสชาติเบียร์แท้ๆ? ลิงก์อยู่ใน bio ลองเลย! [VISUAL: นิ้วชี้ลงไปที่ bio/ลิงก์ บนหน้าจอ]"
   },
   "asset_brief": [
     {
       "timestamp": "0:00",
-      "description": "Close-up shot of a dirty, well-used dish sponge.",
+      "description": "มือคนถือแก้วเบียร์เย็นจัดจนมีไอน้ำเกาะเต็มแก้ว เน้นความเย็นจัด",
       "type": "real",
-      "keywords": ["sponge", "dirty", "used", "kitchen"]
-    },
-    {
-      "timestamp": "0:01",
-      "description": "Quick cut to a stylized, gleaming clean toilet bowl.",
-      "type": "generated",
-      "keywords": ["toilet", "clean", "comparison", "shock"]
-    },
-    {
-      "timestamp": "0:02",
-      "description": "Shocked face emoji or animation overlaying the scene.",
-      "type": "generated",
-      "keywords": ["emoji", "shocked", "reaction"]
+      "keywords": ["เบียร์เย็น", "เบียร์", "ไอน้ำ", "แก้วเบียร์"]
     },
     {
       "timestamp": "0:03",
-      "description": "Animated graphic showing \"45,000,000,000 แบคทีเรีย!\" multiplying rapidly on a stylized sponge surface.",
+      "description": "ภาพเบียร์ลาเกอร์เย็นจัดในแก้ว พร้อมกราฟิกแสดงอุณหภูมิ 3-7°C แบบสะอาดตา",
       "type": "generated",
-      "keywords": ["bacteria count", "animation", "sponge", "scientific fact"]
+      "keywords": ["เบียร์ลาเกอร์", "อุณหภูมิ", "กราฟิก", "เย็นจัด"]
     },
     {
       "timestamp": "0:07",
-      "description": "Macro shot illustrating the porous structure of a sponge.",
+      "description": "ภาพสไลด์โชว์เบียร์คราฟต์หลากหลายชนิด เช่น IPA, Stout, Belgian Ale ที่น่าดึงดูดใจ",
       "type": "real",
-      "keywords": ["sponge pores", "macro", "texture"]
+      "keywords": ["เบียร์คราฟต์", "IPA", "Stout", "เบียร์เบลเยียม", "หลากหลาย"]
     },
     {
-      "timestamp": "0:08",
-      "description": "Montage of food bits, water droplets, and steam/warmth in a kitchen environment.",
+      "timestamp": "0:10",
+      "description": "โคลสอัพแก้วเบียร์คราฟต์ที่สวยงาม มีฟองเบียร์ละเอียด หมุนช้าๆ",
       "type": "real",
-      "keywords": ["food scraps", "moisture", "warmth", "kitchen environment"]
+      "keywords": ["แก้วเบียร์คราฟต์", "ฟองเบียร์", "รายละเอียด", "สวยงาม"]
     },
     {
-      "timestamp": "0:11",
-      "description": "Cartoon bacteria having a 'party' inside a sponge, depicted as a 'hotel'.",
-      "type": "generated",
-      "keywords": ["cartoon", "bacteria", "hotel", "multiplication"]
+      "timestamp": "0:13",
+      "description": "ภาพคนกำลังจิบเบียร์อย่างพินิจพิเคราะห์และเพลิดเพลิน พร้อมรอยยิ้มเล็กน้อย",
+      "type": "real",
+      "keywords": ["คนดื่มเบียร์", "เพลิดเพลิน", "จิบ", "มีความสุข"]
     },
     {
-      "timestamp": "0:14",
-      "description": "Animated icons of common pathogens like Salmonella and E. coli appearing on the sponge.",
+      "timestamp": "0:16",
+      "description": "แอนิเมชันแสดงกลิ่นและรสชาติ (represented by colorful elements) ถูก 'กด' จมลงไปในแก้วเบียร์ และภาพคนทำหน้าผิดหวังเล็กน้อย",
       "type": "generated",
-      "keywords": ["salmonella", "e. coli", "pathogens", "danger"]
-    },
-    {
-      "timestamp": "0:17",
-      "description": "Animated lines showing bacteria spreading from the sponge to a plate, then to kitchen utensils, and finally to hands.",
-      "type": "generated",
-      "keywords": ["cross-contamination", "bacteria spread", "plate", "hands"]
+      "keywords": ["รสชาติ", "กลิ่น", "ถูกกด", "ผิดหวัง", "แอนิเมชัน"]
     },
     {
       "timestamp": "0:21",
-      "description": "Overlay text: \"อันตราย: อาหารเป็นพิษ!\" (Danger: Food Poisoning!) with a warning symbol.",
+      "description": "กราฟิกแสดงอุณหภูมิ 10-13°C พร้อมไอคอนเบียร์คราฟต์ที่ดูมีชีวิตชีวา",
       "type": "generated",
-      "keywords": ["warning", "food poisoning", "text overlay"]
+      "keywords": ["อุณหภูมิที่เหมาะสม", "เบียร์คราฟต์", "กราฟิก", "ปลดล็อก"]
     },
     {
-      "timestamp": "0:24",
-      "description": "An old, grimy sponge quickly disappears and is replaced by a gleaming, modern kitchen alternative (e.g., silicone scrubber).",
-      "type": "real|generated",
-      "keywords": ["old vs new", "replacement", "solution"]
-    },
-    {
-      "timestamp": "0:28",
-      "description": "Product shot of a sleek silicone brush or an antimicrobial sponge being easily rinsed under water, looking pristine.",
+      "timestamp": "0:25",
+      "description": "ชุดแก้วเบียร์อัจฉริยะ 'Flavor-Unlocker Smart Glass Set' ที่มีรูปทรงหลากหลาย พร้อมจอแสดงอุณหภูมิหรือแถบสีที่เปลี่ยนได้",
       "type": "real",
-      "keywords": ["product showcase", "silicone brush", "antimicrobial sponge", "clean"]
+      "keywords": ["แก้วเบียร์อัจฉริยะ", "สินค้า", "นวัตกรรม", "อุณหภูมิ", "เครื่องวัด"]
     },
     {
-      "timestamp": "0:33",
-      "description": "A happy family eating a meal in a clean, modern kitchen setting.",
+      "timestamp": "0:30",
+      "description": "นิ้วมือชี้ลงไปที่ตำแหน่ง bio หรือลิงก์บนหน้าจอโทรศัพท์มือถือ",
       "type": "real",
-      "keywords": ["family", "happy", "clean kitchen", "health"]
-    },
-    {
-      "timestamp": "0:36",
-      "description": "Overlay text: \"หาตัวเลือกใหม่ๆ วันนี้!\" (Find New Options Today!) with a clear call to action.",
-      "type": "generated",
-      "keywords": ["call to action", "text overlay", "options"]
+      "keywords": ["CTA", "ลิงก์", "ชี้นิ้ว", "bio"]
     }
   ],
-  "word_count": 126,
-  "duration_estimate": "48s",
-  "written_at": "2023-10-27T10:30:00Z"
+  "word_count": 120,
+  "duration_estimate": "50s",
+  "written_at": "2024-07-29T10:00:00Z"
 }
 ```

@@ -18,6 +18,7 @@ replay = "hello_ai.main:replay"
 test = "hello_ai.main:test"
 run_with_trigger = "hello_ai.main:run_with_trigger"
 discord_bot = "hello_ai.main:run_bot"
+run_visuals = "hello_ai.main:run_visuals"
 
 [build-system]
 requires = ["hatchling"]

@@ -44,3 +44,13 @@ reporting_task:
   expected_output: >
     A valid JSON object containing the full script and asset brief.
   agent: reporting_analyst
+
+visual_asset_task:
+  description: >
+    Find and download 2-3 direct image assets for: "{topic}".
+    1. Identify direct URLs for relevant images.
+    2. Use the file_downloader tool to save each direct URL to the local assets folder.
+    Make sure to give each file a descriptive name (e.g., cat_image.jpg).
+  expected_output: >
+    A report of the successfully downloaded local file paths and their original URLs.
+  agent: visual_asset_manager

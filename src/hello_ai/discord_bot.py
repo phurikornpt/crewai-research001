@@ -94,6 +94,50 @@ async def chat(ctx, *, message: str):
 async def research(ctx, *, topic: str):
     await chat(ctx, message=topic)
 
+@bot.command(name='download')
+async def download(ctx, *, topic: str):
+    """
+    Tell the Visual Asset Manager to find and download assets for a topic.
+    Usage: !download cat video
+    """
+    await ctx.send(f"� **Visual Manager:** Looking for assets for `{topic}`...")
+    
+    # Prepare inputs for the crew
+    inputs = {
+        'topic': topic,
+        'current_year': str(datetime.now().year)
+    }
+
+    try:
+        # We'll create a special crew instance with only the visual task
+        # to ensure only that agent runs
+        import asyncio
+        from crewai import Crew, Process
+        
+        def run_visual_crew():
+            crew_instance = HelloAi()
+            # Get the visual agent and task
+            agent = crew_instance.visual_asset_manager()
+            task = crew_instance.visual_asset_task()
+            
+            # Create a one-off crew for this request
+            temp_crew = Crew(
+                agents=[agent],
+                tasks=[task],
+                process=Process.sequential,
+                verbose=True
+            )
+            return temp_crew.kickoff(inputs=inputs)
+
+        loop = asyncio.get_event_loop()
+        result = await loop.run_in_executor(None, run_visual_crew)
+        
+        output_str = str(result.raw)
+        await ctx.send(f"✅ **Download Task Complete!**\n\n{output_str}")
+
+    except Exception as e:
+        await ctx.send(f"❌ เกิดข้อผิดพลาด: {str(e)}")
+
 @bot.event
 async def on_message(message):
     # Don't let the bot reply to itself

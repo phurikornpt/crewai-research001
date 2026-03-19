@@ -20,6 +20,40 @@ def run_bot():
     from hello_ai.discord_bot import start_bot
     start_bot()
 
+def run_visuals():
+    """
+    Trigger ONLY the Visual Asset Manager task.
+    Usage: crewai run run_visuals [topic]
+    """
+    import sys
+    if len(sys.argv) < 2:
+        print("Usage: crewai run run_visuals [topic]")
+        return
+
+    topic = sys.argv[1]
+    inputs = {
+        'topic': topic,
+        'current_year': str(datetime.now().year)
+    }
+
+    try:
+        crew_instance = HelloAi().crew()
+        # Find the visual asset task
+        visual_task = None
+        for task in crew_instance.tasks:
+            if task.description.startswith("Review the script for"):
+                visual_task = task
+                break
+        
+        if visual_task:
+            print(f"🚀 Triggering Visual Asset Manager for: {topic}")
+            visual_task.execute()
+        else:
+            print("❌ Visual asset task not found in crew configuration.")
+
+    except Exception as e:
+        raise Exception(f"An error occurred while running visuals: {e}")
+
 def run():
     """
     Run the crew (Starts the Discord bot).
